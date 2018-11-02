@@ -1,0 +1,18 @@
+{
+  "name": "sha3-benchmarks",
+  "version": "0.1.0",
+  "description": "Benchmarks of different SHA3 implementations.",
+  "main": "index.js",
+  "author": "Devin Canterberry <devin@twuni.org>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node ."
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "js-sha3": "^0.8.0",
+    "keccak": "^1.4.0",
+    "sha3": "^1.2.2",
+    "sha3-next": "phusion/node-sha3#publish"
+  }
+}
